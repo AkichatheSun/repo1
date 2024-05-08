@@ -92,3 +92,6 @@ SELECT CONCAT(NOMBRE,' ESTUDIA ',CARRERA,' Y TIENE UNA MEDIA DE ',NOTA_MEDIA) FR
 SELECT CONCAT(ESTUDIANTES.NOMBRE,' TIENE ',COUNT(estudiantes.nombre),' ASIGNATURAS') FROM ESTUDIANTES 
 LEFT JOIN asignaturas_matriculadas ON estudiantes.id_estudiante=asignaturas_matriculadas.id_estudiante
 GROUP BY estudiantes.nombre
+
+
+CAMBIO
